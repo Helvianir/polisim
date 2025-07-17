@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Parliament & Election Simulator</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              serif: ['Georgia', 'serif'],
+              sans: ['Helvetica Neue', 'Arial', 'sans-serif'],
+            },
+            colors: {
+              'nyt-bg': '#FFFFFF',
+              'nyt-text': '#333333',
+              'nyt-primary': '#1a1a1a',
+              'nyt-subtle': '#f1f1f1',
+              'nyt-border': '#e1e1e1',
+            }
+          }
+        }
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.1.0",
+    "react-dom/": "https://esm.sh/react-dom@^19.1.0/",
+    "react/": "https://esm.sh/react@^19.1.0/",
+    "zustand": "https://esm.sh/zustand@^5.0.6",
+    "zustand/react": "https://esm.sh/zustand@^5.0.6/react",
+    "d3": "https://esm.sh/d3@^7.9.0",
+    "lucide-react": "https://esm.sh/lucide-react@^0.525.0",
+    "recharts": "https://esm.sh/recharts@^3.1.0",
+    "react-toastify": "https://esm.sh/react-toastify@^10.0.5",
+    "react-error-boundary": "https://esm.sh/react-error-boundary@^4.0.13",
+    "zustand/": "https://esm.sh/zustand@^5.0.6/"
+  }
+}
+</script>
+<link rel="stylesheet" href="https://esm.sh/react-toastify@10.0.5/dist/ReactToastify.min.css" />
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>

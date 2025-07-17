@@ -1,0 +1,5 @@
+{
+  "name": "Parliament & Election Simulator",
+  "description": "A comprehensive web application to simulate parliamentary systems, run elections with various electoral methods, build coalitions, and explore political scenarios with a clean, modern interface.",
+  "requestFramePermissions": []
+}
