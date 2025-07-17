@@ -8,17 +8,16 @@
     "build": "vite build",
     "preview": "vite preview"
   },
-  "dependencies": {
-    "react": "^19.1.0",
-    "react-dom": "^19.1.0",
-    "zustand": "^5.0.6",
-    "zustand/react": "^5.0.6",
-    "d3": "^7.9.0",
-    "lucide-react": "^0.525.0",
-    "recharts": "^3.1.0",
-    "react-toastify": "^10.0.5",
-    "react-error-boundary": "^4.0.13"
-  },
+"dependencies": {
+  "react": "^19.1.0",
+  "react-dom": "^19.1.0",
+  "zustand": "^5.0.6",
+  "d3": "^7.9.0",
+  "lucide-react": "^0.525.0",
+  "recharts": "^3.1.0",
+  "react-toastify": "^10.0.5",
+  "react-error-boundary": "^4.0.13"
+},
   "devDependencies": {
     "@types/node": "^22.14.0",
     "typescript": "~5.7.2",
